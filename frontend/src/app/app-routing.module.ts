@@ -6,7 +6,11 @@ const routes: Routes = [
 
   {
     path:'',component:HomeComponent
-  }
+  }, {
+    path: '',
+    loadChildren:
+      () => import('').then(m => m.MaterialComponentsModule),
+  },
 ];
 
 @NgModule({
