@@ -11,6 +11,7 @@ import { SidebarComponent } from './layout/full/sidebar/sidebar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Material } from './shared/material';
 import { Shared } from './shared/shared';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Shared } from './shared/shared';
     HomeComponent,
     FullComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
