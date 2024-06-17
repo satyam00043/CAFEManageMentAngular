@@ -27,6 +27,8 @@
     text-decoration: none;
     text-align: center;
   }
+.clolor{
+  color:blue
   
   .navbar a:hover {
     background-color: #ddd;
